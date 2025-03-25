@@ -7,7 +7,11 @@
 
 ## 使用例
 
-- ローカル html ファイルで td 要素に mz700.ttf を指定したもの。
+- [sample.html](sample.html) の表示例
+  - mz700.ttf をインストールした Windows 11
+  - td 要素に mz700.ttf を指定
+  - Google Chrome で表示
+  - Firefox だと 0xc7 が 🛸, 0xef が 🐍 と表示される
 
 ![](sample.png)
 
@@ -96,6 +100,15 @@ sudo apt install python3-fontforge
 ### 本リポジトリの BDF ファイル、TTF ファイル
 
 - 本リポジトリは mz700.bdf, mz700.ttf を含んでいますが、これは後述のフリーフォントから生成したものです。
+
+## ライセンス
+
+
+MIT（mz700.bdf, mz700.ttf を除く）
+
+※ mz700.bdf, mz700.ttf は
+[MZ700WIN関連ファイル再配布所](http://mzakd.cool.coocan.jp/mz-memories/mz700win.html) 
+で配布されている mz700win に従います。
 
 ## 謝辞
 
