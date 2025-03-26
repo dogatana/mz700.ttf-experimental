@@ -110,6 +110,9 @@ MIT（mz700.bdf, mz700.ttf を除く）
 [MZ700WIN関連ファイル再配布所](http://mzakd.cool.coocan.jp/mz-memories/mz700win.html) 
 で配布されている mz700win に従います。
 
+[mz700win 0.53 に同梱の mz700win_jp.txt](mz700win_jp.txt) （エンコーディングをUTF-8 へ変更）
+
+
 ## 謝辞
 
 TTF ファイル化にあたり、次の方々の情報を参考にさせていただきました。

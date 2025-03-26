@@ -10,3 +10,4 @@ venv/
 *.xls
 
 *.txt
+!mz700win_jp.txt
