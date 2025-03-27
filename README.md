@@ -97,12 +97,19 @@ sudo apt install python3-fontforge
 - 8x8 ドットフォントの場合、新たに map.json を定義することで、build_bdf.py で BDF を作成可能だと思います。
 - 8x16 等、他のサイズの場合は BDF の定義情報が変わるため build_bdf.py の修正が必要です。
 
+__重要__
+
+- BDF の情報のうち、最低でも次の項目は適切な内容に変更する必要があります。
+  - FACE_NAME
+  - FAMILIY_NAME
+  - COPYRIGHT
+
+
 ### 本リポジトリの BDF ファイル、TTF ファイル
 
 - 本リポジトリは mz700.bdf, mz700.ttf を含んでいますが、これは後述のフリーフォントから生成したものです。
 
 ## ライセンス
-
 
 MIT（mz700.bdf, mz700.ttf を除く）
 
