@@ -1,5 +1,33 @@
 STARTFONT 2.1
 FONT -mz700-Fixed-Medium-R-Normal--8-80-75-75-M-80-ISO10646-1
+COMMENT 
+COMMENT This fils is based on MZ700FON.JP that is included in mz700win release file
+COMMENT 
+COMMENT Following is the content of mz700win.txt
+COMMENT ---------------------------------------------------------------------------------
+COMMENT mz700win - an MZ-700 emulator 'mz700win.exe' for Win32 version 0.53 (maintenance)
+COMMENT 
+COMMENT (C) 1998-2000 Takeshi Maruyama (marukun)
+COMMENT I can't write English well. Please forgive me my poor English.
+COMMENT 
+COMMENT mz700win by Takeshi Maruyama, based on Russell Marks's 'mz700em'.
+COMMENT MZ700 emulator 'mz700em' for VGA PCs running Linux (C) 1996 Russell Marks.
+COMMENT 
+COMMENT In Primary version, I ported Linux version to Win32 directly. But it was slow.
+COMMENT This version of MZ700WIN was rewritten newly by me.
+COMMENT 
+COMMENT Z80 emulation from 'Z80em' Copyright (C) Marcel de Kogel 1996,1997
+COMMENT ---------------------------------------------------------------------------------
+COMMENT * CG-ROM             MZ700FON.DAT or MZ700FON.JP (4096bytes)
+COMMENT 
+COMMENT 'MZ700FON.DAT' is the image file of Character-ROM.
+COMMENT In order to get it, You can use the tool called 'mkfnt.exe' and
+COMMENT Its data file.
+COMMENT 
+COMMENT This data file 'MZ700FON.JP' is the character font data. This is not from
+COMMENT the MZ700, but put together by hand.
+COMMENT It is Japanese font file.
+COMMENT
 SIZE 8 75 75
 FONTBOUNDINGBOX 8 8 0 0
 STARTPROPERTIES 21
@@ -8,7 +36,7 @@ FONT_VERSION "1.0"
 FONT_ASCENT 8
 FONT_DESCENT 0
 DEFAULT_CHAR 32
-COPYRIGHT ""
+COPYRIGHT "Copyright (C) Takeshi Maruyama (marukun)"
 FONTNAME_REGISTRY ""
 FOUNDRY ""
 FAMILY_NAME "mz700"
